@@ -35,6 +35,7 @@ Index
     Normalization Layers
     Noise Layers
     Layer Wrappers
+    Functional Layer Tools
     Writing your own Keras layers
 
 - Preprocessing
@@ -264,6 +265,13 @@ PAGES = [
             layers.maximum,
             layers.concatenate,
             layers.dot,
+        ]
+    },
+    {
+        'page': 'layers/functional.md',
+        'functions': [
+            layers.sequence,
+            layers.repeat,
         ]
     },
     {
